@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+body {
+   display: flex;
+   flex-wrap: wrap;
+   
+   align-items: center;
+   flex-direction: column;
+   min-height: 100vh;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: rgb(204, 253, 236);
+}
+
+h1 {
+    font-size: 50px;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0.3;
+    
+}
+
+form {
+    border: none;
+    width: 400px;
+    
+    max-width: 100%;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, 1);
+}
+
+.input {
+    display: block;
+     width: 332px;
+     
+   
+    padding: 1rem 2rem;
+
+}
+
+.input::placeholder {
+    font-size: 20px;
+    color: rgb(153, 153, 152);
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list li {
+    border-bottom:solid  rgb(153, 153, 152) 1px;
+
+    cursor: pointer;
+    padding: 1rem 2rem;
+    margin: auto;
+    width: 332px;
+    font-size:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.list li.completed {
+    text-decoration: line-through;
+    color: rgb(153, 153, 152);
+    
+}
+
+small {
+    color: rgb(153, 153, 152);
+    margin-top: 3rem;
+
+}
